@@ -1,0 +1,56 @@
+<style>
+    /* Add some styling to the form */
+    form {
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto;
+     padding-top: 10px;
+     background-color: #f9f9f9;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+    }
+
+    
+    label {
+     display: block;
+     margin-top: 10px;
+    }
+    
+    input[type="text"], input[type="email"], textarea {
+     width: 100%;
+     padding: 5px;
+    }
+    
+    input[type="submit"] {
+     margin-top: 10px;
+    }
+    </style>
+    <center>
+    <h1 style="color: rgb(255, 0, 170);font-size:55px;padding:10px 0px 0px 0px;font-family: Garamond;"> Contact Us</h1></center>
+    <center>  <table>
+        <td width="400px" style="padding: 20px 230px 20px 100px;">
+    
+    <form action="/submit_form" method="post" style="background-color: rgb(171, 171, 205);padding: 50px;">
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required>
+    
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required>
+    
+     <label for="message">Message:</label>
+     <textarea id="message" name="message" rows="4" required></textarea>
+    
+     <label for="subject">Subject:</label>
+     <input type="text" id="subject" name="subject">
+    
+     <label for="company">Company:</label>
+     <input type="text" id="company" name="company">
+    
+     <input type="submit" value="Send">
+    </form></td>
+
+<td>
+    <img src="contact us img.jpeg" width="800px">
+</td>
+</table> </center> 
+<p style="font-size: 23px;padding: 20px 60px;">Welcome to our "Contact Us" page! We're thrilled to hear from you and eager to assist with any questions, concerns, or feedback you may have. Please find below the various ways you can reach out to us:</p>
